@@ -1,0 +1,31 @@
+{
+  "name": "watson-virtual-agent-messenger",
+  "version": "1.0.0",
+  "description": "Node.js boilerplate for Watson Virtual Agent integration with Facebook Messenger apps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test for you\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idometeor/facebook-watson-virtual-agent-messenger.git"
+  },
+  "author": "@iDoMeteor",
+  "license": "ISC",
+  "dependencies": {
+    "@watson-virtual-agent/client-sdk": "^1.2.0",
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "crypto": "0.0.3",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "https": "^1.0.0",
+    "mongodb": "^2.2.22",
+    "request": "^2.79.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
